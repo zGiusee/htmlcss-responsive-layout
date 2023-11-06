@@ -25,6 +25,7 @@
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .col{
@@ -37,10 +38,6 @@
 
 .justify-end{
     justify-content: flex-end;
-}
-
-.f-wrap{
-    flex-wrap: wrap;
 }
 
 /**********************
@@ -59,6 +56,11 @@
 
 
  /* PLANNING SECTION */
+
+ .plannning-card, .col{
+    width: 100%;
+ }
+
 
  /* PARTNER SECTION */
 
