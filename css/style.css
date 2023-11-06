@@ -10,10 +10,6 @@
     background-color: red;
 }
 
-*{
-    border: 1px solid blue; 
-}
-
 /**********************
     UTILITIES
  *********************/
@@ -27,7 +23,6 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 50px;
 }
 
 .col{
@@ -44,8 +39,21 @@
 
 /* POSITIONING */
 
+.d-flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
 .justify-end{
     justify-content: flex-end;
+}
+
+.align-center{
+    align-content: center;
+    align-items: center;
 }
 
 .text-center{
@@ -59,9 +67,21 @@
  /* HEADER */
 
 header{
-    /* position: fixed;
-    z-index: 1; */
+    position: fixed;
+    z-index: 1;
     width: 100%;
+}
+
+#logo{
+    padding: 15px 30px;
+}
+
+#bars-menu{
+    padding: 15px 30px;
+}
+
+.fa-bars{
+    color: white;
 }
 
  /* APP FUNCTION SECTION */
@@ -104,6 +124,13 @@ header{
 
  /* FOOTER */
 
+/**********************
+    GENERAL SETTINGS
+ *********************/
+
+ div img{
+    max-width: 100%;
+ }
 
 
 /**********************
@@ -115,6 +142,26 @@ header{
 }
 
 /* COLORS */
+
+.bg-blue{
+    background-color: #0084FD;
+}
+
+.bg-light-blue{
+    background-color: #B5DDFF;
+}
+
+.bg-light-purple{
+    background-color: #9792E4;
+}
+
+.bg-black{
+    background-color: #333333;
+}
+
+.yellow{
+    color: #FDC15F;
+}
 
 .bg-yellow{
     background-color: yellow;
