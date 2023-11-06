@@ -133,7 +133,48 @@ header{
 
 @media screen and (min-width: 768px) {
 
-    
+/* APP FUNCTION SECTION */
+
+.app-function .row{
+    column-gap: 20px;
+    row-gap: 20px;
+ }
+
+ .app-function .col-xl{
+    width: calc(66% - 20px);
+ }
+
+.app-function .col{
+    width: calc(33% - 20px);
+ }
+
+
+ /* PARTNER SECTION */
+
+ .partner-section .col{
+    width: 100%;
+
+ }
+
+ /* BENEFITS SECTION */
+
+ .benefits-section .col{
+    width: calc(100%/2 - 20px);
+
+ }
+
+ .benefits-section .row{
+    row-gap: 20px;
+    justify-content: space-between;
+
+ }
+
+ /* ABOUT US SECTION */
+
+ .about-us-section .col{
+    width: calc(100%/2);
+
+ }
     
 }
 
