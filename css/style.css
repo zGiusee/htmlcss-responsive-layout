@@ -21,6 +21,7 @@
 /* LAYOUT */
 .container {
     width: 100%;
+    margin: 0 auto;
 }
 
 .row {
@@ -46,11 +47,16 @@
 
  /* HEADER */
 
-
+/* header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin-bottom: 300px;
+} */
 
  /* APP FUNCTION SECTION */
 
- .app-function .col .card-xl{
+ .app-function .col-xl{
     width: 100%;
  }
 
@@ -120,5 +126,15 @@
 }
 
 @media screen and (min-width: 1200px) {
+
+/* APP FUNCTION SECTION */
+
+ .app-function .col-xl{
+    width: calc(66%);
+ }
+
+.app-function .col{
+    width: calc(33%);
+ }
     
 }
