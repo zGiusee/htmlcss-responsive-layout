@@ -27,6 +27,7 @@
 .row {
     display: flex;
     flex-wrap: wrap;
+    padding: 50px;
 }
 
 .col{
@@ -37,8 +38,18 @@
     width: calc(50%);
 }
 
+.w-100{
+    width: 100%;
+}
+
+/* POSITIONING */
+
 .justify-end{
     justify-content: flex-end;
+}
+
+.text-center{
+    text-align: center;
 }
 
 /**********************
@@ -47,12 +58,11 @@
 
  /* HEADER */
 
-/* header{
-    position: fixed;
-    z-index: 1;
+header{
+    /* position: fixed;
+    z-index: 1; */
     width: 100%;
-    margin-bottom: 300px;
-} */
+}
 
  /* APP FUNCTION SECTION */
 
@@ -122,19 +132,65 @@
  *********************/
 
 @media screen and (min-width: 768px) {
+
+    
     
 }
 
 @media screen and (min-width: 1200px) {
 
+/* CONTAINER */
+
+.container{
+    max-width: 1200px;
+}
+
 /* APP FUNCTION SECTION */
 
+.app-function .row{
+    column-gap: 20px;
+    row-gap: 20px;
+ }
+
  .app-function .col-xl{
-    width: calc(66%);
+    width: calc(66% - 20px);
  }
 
 .app-function .col{
-    width: calc(33%);
+    width: calc(33% - 20px);
+ }
+
+  /* PLANNING SECTION */
+
+  .planning-section .col{
+    width: calc(100% / 2);
+ }
+
+ /* PARTNER SECTION */
+
+ .partner-section .col{
+    width: 100%;
+
+ }
+
+ /* BENEFITS SECTION */
+
+ .benefits-section .col{
+    width: calc(100%/3 - 20px);
+
+ }
+
+ .benefits-section .row{
+    row-gap: 20px;
+    justify-content: space-between;
+
+ }
+
+ /* ABOUT US SECTION */
+
+ .about-us-section .col{
+    width: calc(100%/2);
+
  }
     
 }
