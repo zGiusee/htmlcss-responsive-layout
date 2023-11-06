@@ -25,6 +25,21 @@
     flex-wrap: wrap;
 }
 
+.row-padding{
+    padding-top: 100px;
+}
+
+/* CARD */
+
+.card{
+    margin: 0 auto;
+    border-radius: 20px;
+    margin: 0px 30px;
+    padding: 20px;
+}
+
+/* COLUMNS */
+
 .col{
 
 }
@@ -60,6 +75,25 @@
     text-align: center;
 }
 
+.p-relative{
+    position: relative;
+}
+
+/* PDDINGS */
+
+.padding-y-15{
+    padding: 15px 0px;
+}
+
+.padding-y-30{
+    padding: 30px 0px;
+}
+
+
+.icon-padding{
+    padding: 30px 0px 15px 0px;
+}
+
 /**********************
     SITE SECTION
  *********************/
@@ -93,6 +127,21 @@ header{
 .app-function .col{
     width: 100%;
  }
+
+ #phone-img{
+    width: 300px;
+ }
+
+
+ /* APP FUNCTION SECTION ICONS */
+
+ .fa-file-code,
+ .fa-compass-drafting,
+ .fa-laptop-code,
+ .fa-bullhorn{
+    color: #0084FD;
+ }
+
 
  /* PLANNING SECTION */
 
@@ -141,6 +190,29 @@ header{
     font-family: 'Roboto', sans-serif;
 }
 
+p{
+    line-height: 1.8;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* BUTTONS */
+
+.button{
+    border-radius: 20px;
+    padding: 10px 60px;
+    word-spacing: 3px;
+    font-weight: bold;
+}
+
+.blue-b{
+    color: white;
+    background-color: #0084FD;
+}
+
+
 /* COLORS */
 
 .bg-blue{
@@ -157,6 +229,14 @@ header{
 
 .bg-black{
     background-color: #333333;
+}
+
+.blue{
+    color: #0084FD;
+}
+
+.gray{
+    color: #5A6E7F;
 }
 
 .yellow{
