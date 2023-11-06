@@ -432,7 +432,11 @@ h5{
 /* CARD */
 
 .card{
-    margin: 0px 5px;
+    margin: 0px 5px;   
+}
+
+.clean-code-card-height{
+    height: 100%;
 }
 
 /* APP FUNCTION SECTION */
@@ -450,13 +454,41 @@ h5{
     width: calc(33% - 20px);
  }
 
+ /* PLANNING SECTION */
+
+ .planning-section .col{
+    width: 100%;
+ }
+
+ .planning-section .card{
+    margin: 0px 20px;
+ }
+
 
  /* PARTNER SECTION */
 
  .partner-section .col{
     width: 100%;
-
  }
+
+ .partner-section .card{
+    margin: 0px 20px;
+ }
+
+ .partner-img-container{
+    float: left;
+    padding-right: 40px;
+ }
+
+ .partner-section h4{
+    text-align: start;
+ }
+
+ .partner-section p{
+    text-align: start;
+    
+ }
+
 
  /* BENEFITS SECTION */
 
@@ -466,7 +498,8 @@ h5{
  }
 
  .benefits-section .row{
-    row-gap: 20px;
+    row-gap: 30px;
+    margin: 0px 20px;
     justify-content: space-around;
 
  }
@@ -477,8 +510,18 @@ h5{
     width: calc(100%/2);
 
  }
+
+ /* FOOTER */
+
+ .footer-text-container{
+    margin: 0px 100px;
+ }
     
 }
+
+
+
+
 
 @media screen and (min-width: 1200px) {
 
