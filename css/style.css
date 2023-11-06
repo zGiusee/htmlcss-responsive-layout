@@ -90,6 +90,10 @@
     padding: 0px 15px;
 }
 
+.padding-x-40{
+    padding: 0px 40px;
+}
+
 .padding-y-15{
     padding: 15px 0px;
 }
@@ -115,6 +119,16 @@
 /**********************
     SITE SECTION
  *********************/
+
+.app-function,
+.about-us-section,
+.benefits-section,
+.planning-section,
+.partner-section,
+.get-started-section,
+footer{
+    padding: 50px 0px;
+}
 
  /* HEADER */
 
@@ -166,6 +180,14 @@ header{
 
  .planning-section .col{
     width: 100%;
+ }
+
+ .planning-card-border{
+    border-radius: 50px;
+ }
+
+ .planning-padding{
+    padding: 30px 40px;
  }
 
  /* PARTNER SECTION */
