@@ -90,6 +90,10 @@
     padding: 0px 15px;
 }
 
+.padding-x-25{
+    padding: 0px 25px;
+}
+
 .padding-x-40{
     padding: 0px 40px;
 }
@@ -234,7 +238,24 @@ header{
 
  .about-us-section .col{
     width: 100%;
+ }
 
+ .about-img{
+    border-radius: 50%;
+    scale: 0.6;
+    margin-left: 0px;
+    
+ }
+
+ .about-quote{
+    color: #9792E4;
+    position: absolute;
+    top: 70px;
+    right: 70px;
+ }
+
+ .fa-linkedin{
+    color: white;
  }
 
  /* GET STARTED SECTION */
@@ -284,11 +305,19 @@ h5{
     font-size: 15px;
 }
 
+.font-l{
+    font-size: 45px;
+}
+
+.line-height-l{
+    line-height: 2.2;
+}
+
 /* BUTTONS */
 
 .button{
     border-radius: 20px;
-    padding: 10px 50px;
+    padding: 10px 40px;
     word-spacing: 3px;
     font-weight: bold;
 }
