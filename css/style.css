@@ -4,6 +4,33 @@
     margin: 0;
 }
 
+/**********************
+    UTILITIES
+ *********************/
+
+
+
+/**********************
+    GENERAL STYLES
+ *********************/
+
 *{
     font-family: 'Roboto', sans-serif;
+}
+
+/* Colors */
+
+
+
+
+/**********************
+    MEDIA QUERIES
+ *********************/
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
 }
