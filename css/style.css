@@ -35,7 +35,7 @@
     margin: 0 auto;
     border-radius: 20px;
     margin: 0px 30px;
-    padding: 20px;
+    padding: 20px 40px;
 }
 
 /* COLUMNS */
@@ -80,6 +80,10 @@
 }
 
 /* PDDINGS */
+
+.padding-x-15{
+    padding: 0px 15px;
+}
 
 .padding-y-15{
     padding: 15px 0px;
@@ -157,10 +161,18 @@ header{
  }
  /* BENEFITS SECTION */
 
+.benefits-section .row{
+    row-gap: 30px;
+}
+
  .benefits-section .col{
     width: 100%;
-
  }
+
+.benefits-number{
+    color: #9792E4;
+    font-size: 50px;
+}
 
  /* ABOUT US SECTION */
 
@@ -198,11 +210,22 @@ a{
     text-decoration: none;
 }
 
+h3{
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+h2{
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
 /* BUTTONS */
 
 .button{
     border-radius: 20px;
-    padding: 10px 60px;
+    padding: 10px 50px;
     word-spacing: 3px;
     font-weight: bold;
 }
@@ -210,6 +233,11 @@ a{
 .blue-b{
     color: white;
     background-color: #0084FD;
+}
+
+.purple-b{
+    color: #fff;
+    background-color: #9792E4;
 }
 
 
@@ -229,6 +257,18 @@ a{
 
 .bg-black{
     background-color: #333333;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.white{
+    color: white;
+}
+
+.light-purple{
+    color: #9792E4;
 }
 
 .blue{
@@ -259,6 +299,12 @@ a{
  *********************/
 
 @media screen and (min-width: 768px) {
+
+/* CARD */
+
+.card{
+    margin: 0px 5px;
+}
 
 /* APP FUNCTION SECTION */
 
@@ -292,7 +338,7 @@ a{
 
  .benefits-section .row{
     row-gap: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
 
  }
 
@@ -311,6 +357,12 @@ a{
 
 .container{
     max-width: 1200px;
+}
+
+/* CARD */
+
+.card{
+    margin: 0px 5px;
 }
 
 /* APP FUNCTION SECTION */
