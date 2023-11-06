@@ -190,6 +190,7 @@ header{
     padding: 30px 40px;
  }
 
+
  /* PARTNER SECTION */
 
  .partner-card-border{
@@ -240,6 +241,8 @@ header{
 
  /* FOOTER */
 
+
+
 /**********************
     GENERAL SETTINGS
  *********************/
@@ -288,6 +291,16 @@ h5{
     padding: 10px 50px;
     word-spacing: 3px;
     font-weight: bold;
+}
+
+.rounded-button{
+    border-radius: 50%;
+    padding: 15px 20px;
+}
+
+.purple-b-black{
+    color: black;
+    background-color: #9792E4;
 }
 
 .blue-b{
