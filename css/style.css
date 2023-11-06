@@ -50,21 +50,32 @@
 
  /* APP FUNCTION SECTION */
 
-.app-function-card,.app-function-card-xl, .col{
+ .app-function .col .card-xl{
     width: 100%;
  }
 
+.app-function .col{
+    width: 100%;
+ }
 
  /* PLANNING SECTION */
 
- .plannning-card, .col{
+ .planning-section .col{
     width: 100%;
  }
 
-
  /* PARTNER SECTION */
 
+ .partner-section .col{
+    width: 100%;
+
+ }
  /* BENEFITS SECTION */
+
+ .benefits-section .col{
+    width: 100%;
+
+ }
 
  /* ABOUT US SECTION */
 
@@ -83,6 +94,14 @@
 }
 
 /* COLORS */
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-green{
+    background-color: green;
+}
 
 
 
