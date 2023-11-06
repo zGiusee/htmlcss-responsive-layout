@@ -152,11 +152,30 @@ header{
 
 #bars-menu{
     padding: 15px 30px;
+    display: block;
 }
 
 .fa-bars{
     color: white;
 }
+
+/* HEADER LIST */
+
+.header-menu-list{
+    display: none;
+}
+
+.header-menu-list ul{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+  
+  }
+  
+  .header-menu-list ul li{
+      padding: 0px 15px;
+  }
+  
 
  /* APP FUNCTION SECTION */
 
@@ -280,6 +299,10 @@ header{
     max-width: 100%;
  }
 
+ .clearfix{
+    overflow: auto;
+ }
+
 
 /**********************
     GENERAL STYLES
@@ -295,6 +318,7 @@ p{
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 h3{
@@ -367,6 +391,11 @@ h5{
 
 .white-b{
     color: #9792E4;
+    background-color: white;
+}
+
+.white-b-black{
+    color: black;
     background-color: white;
 }
 
@@ -469,15 +498,21 @@ h5{
 
  .partner-section .col{
     width: 100%;
+    overflow: auto;
  }
 
  .partner-section .card{
     margin: 0px 20px;
  }
 
+
+ .partner-img-container{
+    overflow: auto;
+    padding-right: 40px;
+ }
+
  .partner-img-container{
     float: left;
-    padding-right: 40px;
  }
 
  .partner-section h4{
@@ -538,6 +573,16 @@ h5{
     margin: 0px 5px;
 }
 
+/* HEADER */
+
+#bars-menu{
+    display: none;
+}
+
+.header-menu-list{
+    display: block;
+}
+
 /* APP FUNCTION SECTION */
 
 .app-function .row{
@@ -566,6 +611,10 @@ h5{
 
  }
 
+ .partner-card-border{
+    justify-content: center;
+ }
+
  /* BENEFITS SECTION */
 
  .benefits-section .col{
@@ -574,15 +623,52 @@ h5{
  }
 
  .benefits-section .row{
-    row-gap: 20px;
+    margin: 0 auto;
+    row-gap: 30px;
     justify-content: space-between;
 
  }
 
  /* ABOUT US SECTION */
 
- .about-us-section .col{
-    width: calc(100%/2);
+ .about-us-section .col-left{
+    width: calc(60%);
+
+ }
+
+ .about-us-section .col-right{
+    width: calc(40%);
+
+ }
+
+.about-quote{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+ .about-us-img-container img{
+    width: 100%;
+    
+ }
+
+ .about-us-img-container{
+    height: 300px;
+    width: 300px;
+ }
+
+ .find-me-text-container{
+
+ }
+
+ .find-me-text-container h3{
+    margin-right: 200px;
+    margin-left: 50px;
+ }
+
+ .linkedin-button a{
+    margin-left: 50px;
+    padding: 10px 10px;
 
  }
     
