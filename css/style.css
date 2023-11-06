@@ -15,6 +15,7 @@
  *********************/
 
 /* LAYOUT */
+
 .container {
     width: 100%;
     margin: 0 auto;
@@ -93,9 +94,18 @@
     padding: 30px 0px;
 }
 
-
 .icon-padding{
     padding: 30px 0px 15px 0px;
+}
+
+/* MARGINS */
+
+.margin-x-10{
+    margin: 0px 10px;
+}
+
+.margin-x-30{
+    margin: 0px 30px;
 }
 
 /**********************
@@ -137,6 +147,7 @@ header{
  }
 
 
+
  /* APP FUNCTION SECTION ICONS */
 
  .fa-file-code,
@@ -154,6 +165,10 @@ header{
  }
 
  /* PARTNER SECTION */
+
+ .partner-header{
+    padding: 0px 25px;
+ }
 
  .partner-section .col{
     width: 100%;
@@ -219,6 +234,11 @@ h2{
     font-size: 33px;
     font-weight: bold;
     line-height: 1.5;
+}
+
+h5{
+    font-weight: 300;
+    font-size: 15px;
 }
 
 /* BUTTONS */
@@ -355,8 +375,9 @@ h2{
 
 /* CONTAINER */
 
-.container{
+.row{
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* CARD */
