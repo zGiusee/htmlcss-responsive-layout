@@ -80,7 +80,11 @@
     position: relative;
 }
 
-/* PDDINGS */
+/* PADDINGS */
+
+.padding-x-5{
+    padding: 0px 5px;
+}
 
 .padding-x-15{
     padding: 0px 15px;
@@ -166,13 +170,27 @@ header{
 
  /* PARTNER SECTION */
 
+ .partner-card-border{
+    border-radius: 50px;
+ }
+
  .partner-header{
     padding: 0px 25px;
  }
 
  .partner-section .col{
     width: 100%;
+ }
+ 
+ .partner-img-container{
 
+ }
+
+ .partner-img-container img{
+    width: 100%;
+    border-radius: 50%;
+    height: 150px;
+    width: 170px;
  }
  /* BENEFITS SECTION */
 
