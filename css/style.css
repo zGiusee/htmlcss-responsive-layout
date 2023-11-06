@@ -79,6 +79,11 @@
 
  /* ABOUT US SECTION */
 
+ .about-us-section .col{
+    width: 100%;
+
+ }
+
  /* GET STARTED SECTION */
 
  /* FOOTER */
