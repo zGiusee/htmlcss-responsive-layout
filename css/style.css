@@ -222,6 +222,8 @@ header{
 
  .partner-card-border{
     border-radius: 50px;
+    display: flex;
+    flex-direction: column;
  }
 
  .partner-header{
@@ -236,11 +238,13 @@ header{
 
  }
 
- .partner-img-container img{
+ .partner-img{
     height: 200px;
     width: 200px;
     border-radius: 50%;
     object-fit: cover;
+    align-self: center;
+    
     
  }
  /* BENEFITS SECTION */
@@ -511,9 +515,13 @@ h5{
     padding-right: 40px;
  }
 
- .partner-img-container{
+ .partner-img{
     float: left;
  }
+
+.partner-text-container{
+    
+}
 
  .partner-section h4{
     text-align: start;
